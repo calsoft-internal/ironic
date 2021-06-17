@@ -1,0 +1,11 @@
+---
+upgrade:
+  - |
+    oslo.db version 9.1.0 fixes issue of inspection of node with 
+    idrac driver with inspect interface as idrac-redfish.
+    Issue was introduced since mysql server version 8.0.19
+    where duplicate key error information is extended to
+    include the table name of the key.
+
+    For more information, see `story 2008901
+    <https://storyboard.openstack.org/#!/story/2008901>`_.
