@@ -1,0 +1,7 @@
+---
+fixes:
+  - |
+    Fixes an issue of powering off created server with idrac-wsman as 
+    management interface while execution of clear job queue cleanning step. 
+    Earlier clean step was geting failed while powering off the server during
+    clean step execution.
